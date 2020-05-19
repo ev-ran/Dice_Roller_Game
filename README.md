@@ -10,10 +10,10 @@ Let's play a little bit)
 * number of dice sizes
 
 ###### 1. "ROLL" button:
- * roll dises. 
+ * roll dices. 
  *  culclate and display the total sum of numbers in current roll.
  *  create and display the ordered list with results of current duce roll
- *  generete and display the graphical form of duces
+ *  generete and display the graphical forms of duces
  *  change ColorStyle of document with 0.5 sec. delay
 
 ###### 1. "RESET" button:
