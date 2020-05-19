@@ -1,0 +1,328 @@
+:root {
+    --blue-color: #0048BA;
+    --red-color: #E32636;
+    --white-color: white;
+    --black-color: black;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#main_container {
+    display: grid;
+    grid-template-columns: 15px 1fr 1fr 300px 300px 1fr 1fr 15px;
+    grid-template-rows: 15px 210px 30px 30px auto 15px;
+    /* //------------------------ */
+    width: 95vw;
+    height: 98vh;
+    margin: auto;
+    border: 1px solid red;
+}
+
+#fon_1 {
+    grid-area: 1/1/2/5;
+    background-color: var(--blue-color);
+}
+
+#fon_2 {
+    grid-area: 1/5/2/9;
+    background-color: var(--red-color);
+    z-index: 1;
+}
+
+#fon_3 {
+    grid-area: 2/8/6/9;
+    background-color: var(--red-color);
+}
+
+#fon_4 {
+    grid-area: 6/7/7/9;
+    background-color: var(--red-color);
+}
+
+#fon_5 {
+    grid-area: 6/1/7/3;
+    background-color: var(--blue-color);
+}
+
+#fon_7 {
+    grid-area: 6/3/7/5;
+    background-color: var(--red-color);
+}
+
+#fon_8 {
+    grid-area: 6/5/7/7;
+    background-color: var(--blue-color);
+}
+
+#fon_6 {
+    grid-area: 2/1/6/2;
+    background-color: var(--blue-color);
+}
+
+#header_1_1 {
+    grid-area: 2/2/5/4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--white-color);
+    border: 3px solid var(--black-color);
+    color: var(--black-color);
+    position: relative;
+}
+
+/* //========================== */
+
+.button_1 {
+    position: absolute;
+    top: 60px;
+    /* right: 100px; */
+    display: inline-block;
+    padding: 38px 25px;
+    font-size: 1.5em;
+    cursor: pointer;
+    font-family: 'Black Ops One', cursive;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: var(--blue-color);
+    background-color: var(--red-color);
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 9px var(--blue-color);
+}
+
+.button_1:hover {
+    background-color: #FF2B3C;
+    color: #0063FF;
+}
+
+.button_1:active {
+    background-color: var(--blue-color);
+    color: var(--red-color);
+    box-shadow: 0 5px var(--red-color);
+    transform: translateY(4px);
+}
+
+.roll_text {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 2em;
+    position: absolute;
+    top: 170px;
+       
+}
+
+/* //=========================== */
+
+#header_1_2 {
+    Grid-area: 2/6/5/8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--white-color);
+    border: 3px solid var(--black-color);
+    color: var(--black-color);
+    position: relative;
+}
+
+/* //========================== */
+
+.button_2 {
+    position: absolute;
+    top: 60px;
+    /* right: 100px; */
+    display: inline-block;
+    padding: 38px 25px;
+    font-size: 1.5em;
+    cursor: pointer;
+    font-family: 'Black Ops One', cursive;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: var(--red-color);
+    background-color: var(--blue-color);
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 9px var(--red-color);
+}
+
+.button_2:hover {
+    background-color: #0063FF;
+    color: #FF2B3C;
+}
+
+.button_2:active {
+    background-color: var(--red-color);
+    color: var(--blue-color);
+    box-shadow: 0 5px var(--blue-color);
+    transform: translateY(4px);
+}
+
+/* //=========================== */
+
+#center_1_1 {
+    Grid-area: 2/4/3/5;
+    background-color: var(--red-color);
+}
+
+#center_1_2 {
+    Grid-area: 2/5/3/6;
+    background-color: var(--blue-color);
+}
+
+#center_2_1 {
+    Grid-area: 3/4/4/5;
+    /* background-color: var(--white-color); */
+    background-color: var(--blue-color);
+    z-index: 1;
+}
+
+#center_2_2 {
+    Grid-area: 3/5/4/6;
+    background-color: var(--red-color);
+    z-index: 1;
+}
+
+#center_3_1 {
+    Grid-area: 4/4/5/5;
+    /* background-color: var(--white-color); */
+    background-color: var(--red-color);
+    z-index: 1;
+}
+
+#center_3_2 {
+    Grid-area: 4/5/5/6;
+    /* background-color: var(--white-color); */
+    background-color: var(--blue-color);
+    z-index: 1;
+}
+
+#tablo_down_1 {
+    Grid-area: 3/4/5/5;
+    /* z-index: 2; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 3px solid var(--black-color); */
+    /* background-color: darkorchid; */
+}
+
+#number_of_rolls {
+    background-color: var(--white-color);
+    border: 3px solid var(--black-color);
+    border-radius: 35px 0 0 0;
+    margin: 0 95px 0 0;
+    height: 45px;
+    width: 120px;
+    font-size: 2.2em;
+    text-align: center;
+}
+
+#tablo_down_2 {
+    Grid-area: 3/5/5/6;
+    /* z-index: 2; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 3px solid var(--black-color); */
+    /* background-color: green; */
+}
+
+#number_of_sides {
+    background-color: var(--white-color);
+    border: 3px solid var(--black-color);
+    border-radius: 0 0 35px 0;
+    margin: 0 0 0 100px;
+    height: 45px;
+    width: 120px;
+    font-size: 2.2em;
+    text-align: center;
+}
+
+#tablo_up {
+    Grid-area: 2/4/3/6;
+    /* background-color: darkorchid; */
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#tablo_total {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 400px;
+    height: 160px;
+    background-color: var(--white-color);
+    border: 4px solid var(--black-color);
+    border-radius: 100px 0 100px 0;
+    z-index: 3;
+}
+
+#tablo_total:before {
+    position: absolute;
+    content: "";
+    background-color: var(--black-color);
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    top: 40px;
+    left: 190px;
+    z-index: 3;
+}
+
+#tablo_total:after {
+    position: absolute;
+    content: "";
+    background-color: var(--black-color);
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    top: 85px;
+    left: 190px;
+    z-index: 2;
+}
+
+#total_number_1 {
+    width: 120px;
+    height: 120px;
+    /* border: 1px solid black; */
+    
+    font-size: 6em;
+    text-align: center;
+    z-index: 3;
+}
+
+#total_number_2 {
+    width: 120px;
+    height: 120px;
+    /* border: 1px solid black; */
+    font-size: 6em;
+    text-align: center;
+    z-index: 3;
+}
+
+#section_1 {
+    Grid-area: 5/2/6/3;
+    background-color: var(--red-color);
+}
+
+#section_2 {
+    Grid-area: 5/7/6/8;
+    background-color: var(--blue-color);
+}
+
+#masonry_1 {
+    Grid-area: 5/3/6/5;
+    background-color: var(--blue-color);
+}
+
+#masonry_2 {
+    Grid-area: 5/5/6/7;
+    background-color: var(--red-color);
+}
+
+/* //======================= */

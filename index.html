@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dice_Game</title>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+
+    <div id='main_container'>
+
+        <div id='fon_1'></div>
+        <div id='fon_2'></div>
+        <div id='fon_3'></div>
+        <div id='fon_4'></div>
+        <div id='fon_5'></div>
+        <div id='fon_6'></div>
+        <div id='fon_7'></div>
+        <div id='fon_8'></div>
+
+
+        <div id='header_1_1'>
+
+            <button id='dream_button_1' class="button_1">ROLL!</button>
+            <p class='roll_text'>Number of rolls: </p>
+
+        </div>
+
+        <div id='header_1_2'>
+
+            <button id='dream_button_2' class="button_2">ROLL!</button>
+            <p class='roll_text'>:number of sideS: </p>
+
+        </div>
+
+        <div id='center_1_1'> </div>
+
+        <div id='center_1_2'> </div>
+
+        <div id='tablo_up'>
+
+            <div id='tablo_total'>
+
+                <div id='total_number_1'>0</div>
+                <div id='total_number_2'>0</div>
+            </div>
+
+            <button id='reset_button'>x</button>
+
+        </div>
+
+
+
+        <div id='tablo_down_1'>
+
+            <input type="text" id="number_of_rolls" value='10' maxlength="3">
+
+            <!-- <button id='reset_button' >x</button>  -->
+
+        </div>
+
+        <div id='tablo_down_2'>
+
+            <input type="text" id="number_of_sides" value='6' maxlength="3">
+        </div>
+
+        <div id='center_2_1'> </div>
+
+        <div id='center_2_2'> </div>
+
+        <div id='center_3_1'> </div>
+
+        <div id='center_3_2'> </div>
+
+        <div id='section_1'>
+
+            <!-- -------------------------------------- -->
+            <!-- here would be the generated OrderedList with information about dice rolls -->
+            <!-- <div id="orderedListOfDiceRolls_1"></div> -->
+        </div>
+
+        <div id='masonry_1'>
+
+            <!-- <!*******------------------------------- -->
+            <!-- here would be the generater dices [square - if number of size === 6, round - if number of size !=== 6] -->
+
+
+            <!-- <!*******------------------------------- -->
+            <!-- examples of generated dices, used for tuning and testing how it's display -->
+
+            <!-- <div class='box'>
+    <div class="box_inner_01"></div>
+    <div class="box_inner_02"></div>
+
+</div>
+
+<div class='box_2'>
+    <div class="inner_01_3"></div>
+    <div class="inner_02_3"></div>
+
+</div>
+
+<div class='box_3'>
+    <div class="inner_01_5"></div>
+    <div class="inner_02_6"></div>
+
+</div>
+
+<div class='box_4'>
+    <div class="inner_01_7"></div>
+    <div class="inner_02_8"></div>
+
+</div>
+
+<div class='box_5'>
+    <div class="inner_01_9"></div>
+    <div class="inner_02_10"></div>
+
+</div>
+
+<div class='box_6'>
+    <div class="inner_01_11"></div>
+    <div class="inner_02_12"></div>
+
+</div> -->
+
+            <!-- <!*******------------------------------- -->
+
+        </div>
+
+        <div id='masonry_2'></div>
+
+        <div id='section_2'>
+
+            <!-- <div id="orderedListOfDiceRolls_2"></div> -->
+        </div>
+
+    </div>
+
+    <script src="./main.js"></script>
+
+</body>
+
+</html>
