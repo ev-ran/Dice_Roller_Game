@@ -10,10 +10,10 @@ Let's play a little bit)
 * number of dice sizes
 
 ###### 1. "ROLL" button:
- * roll dices. 
+ * roll dises. 
  *  culclate and display the total sum of numbers in current roll.
  *  create and display the ordered list with results of current duce roll
- *  generete and display the graphical forms of duces
+ *  generete and display the graphical form of duces
  *  change ColorStyle of document with 0.5 sec. delay
 
 ###### 1. "RESET" button:
@@ -23,3 +23,6 @@ Let's play a little bit)
 
 ## Change colors in Game
 ![-](images/game_colors.png)
+
+## All dreams start as a draft
+![-](images/project.png)
