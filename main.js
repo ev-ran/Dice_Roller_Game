@@ -40,7 +40,7 @@ document.documentElement.style
     .setProperty('--bright-blue-color', '#0063FF');
 
 // *****==================================================
-// ===== Just a big RED (or BlUE) DREAM button which makes practically all staff we dream about: rolls the dices, put Ordered List with information to section "Section", draw dices in 'masonry field' and calculate the sum of current dices roll.
+// ===== Just a first big RED (or BlUE) DREAM button which makes practically all staff we dream about: rolls the dices, put Ordered List with information to section "Section", draw dices in 'masonry field' and calculate the sum of current dices roll.
 
 masonry_button_1.addEventListener('click', function () {
 
@@ -57,7 +57,7 @@ masonry_button_1.addEventListener('click', function () {
 
 })
 
-// ===== Just a big RED (or BlUE) DREAM button which makes practically all staff we dream about: rolls the dices, put Ordered List with information to section "Section", draw dices in 'masonry field' and calculate the sum of current dices roll.
+// ===== Just a second big RED (or BlUE) DREAM button which makes practically all staff we dream about: rolls the dices, put Ordered List with information to section "Section", draw dices in 'masonry field' and calculate the sum of current dices roll.
 
 masonry_button_2.addEventListener('click', function () {
 
@@ -92,7 +92,7 @@ reset_button.addEventListener('click', function () {
     totalSumOfGotNumbers_2.innerHTML = 0; // reset the sum of dices
 
 
-    ChangeStyleTimeOutFunction(); // here we also swap the red and blue colors. Sure, for fun)))
+    ChangeStyleTimeOutFunction(); // here we also swap the red and blue colors. Sure, just for fun)))
     
    
 })
@@ -128,7 +128,7 @@ function dreamFunction(numberOfRolls, numberOfSide, numberOfDreamButton) {
     }
 }
 
-//===== FUNCTION ===== Create array with results of all rolls in one session========
+//===== FUNCTION ===== Here we need to enforse the boring [0-1 Math.random()] - to play in Dice with whatever you want number of sides ========
 
 function resultOfRoll(numberOfSide) {
 
