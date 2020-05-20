@@ -10,15 +10,15 @@ Let's play a little bit)
 * number of dice sizes
 
 ###### 1. "ROLL" button:
- * roll dises.
- *  culclate and display the total sum of numbers in current roll.
- *  create and display the ordered list with results of current duce roll
- *  generete and display the graphical form of duces
+ * roll dices using Math.random().
+ *  calculate and display the total sum of numbers in current roll.
+ *  create and display the ordered list with results of current dice roll.
+ *  generete and display the graphical form of dices.
  *  change ColorStyle of document with 0.5 sec. delay
 
 ###### 1. "RESET" button:
- * clear both Ordered Lists and generated Duces.
- *  reset the total sum - to zero
+ *  clear both Ordered Lists and all generated Dices.
+ *  reset the total sum - to zero.
  *  change ColorStyle of document with 0.5 sec. delay
 
 ## Change colors in Game
