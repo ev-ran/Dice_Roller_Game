@@ -151,7 +151,7 @@
 }
 
 .button_2:hover {
-    background-color: var(--bright-blue-color); 
+    background-color: var(--bright-blue-color);
     color: var(--bright-red-color) ;
 }
 
@@ -408,7 +408,7 @@
     float: left;
     margin-bottom: 15px;
     padding: 1px;
-    
+
 }
 
 .boxNot6 {
@@ -661,4 +661,3 @@
     left: 0px;
     background-color: black;
 }
-

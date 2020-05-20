@@ -53,7 +53,7 @@ masonry_button_1.addEventListener('click', function () {
     dreamFunction(numberOfRolls, numberOfSide, numberOfDreamButton); // call DREAM function to get all staff for left dream button
 
     ChangeStyleTimeOutFunction(); // just for fun: let's SWAP red and blue colors in 1/2 second after the button click!
- 
+
 
 })
 
@@ -93,8 +93,8 @@ reset_button.addEventListener('click', function () {
 
 
     ChangeStyleTimeOutFunction(); // here we also swap the red and blue colors. Sure, just for fun)))
-    
-   
+
+
 })
 
 
@@ -104,9 +104,9 @@ function dreamFunction(numberOfRolls, numberOfSide, numberOfDreamButton) {
 
     createArrayFromDuceRolls(numberOfRolls, numberOfSide); // call the other function, which returns array 'dieRolls'  with results of duce rolls
 
-    sumOfArray(dieRolls);  // call the other function, which returns number 'sum' - sum of numbers in array 'dieRolls' 
+    sumOfArray(dieRolls);  // call the other function, which returns number 'sum' - sum of numbers in array 'dieRolls'
 
-    // here we display the 'sum' [ total Sum Of Numbers in array] on the screen 
+    // here we display the 'sum' [ total Sum Of Numbers in array] on the screen
     if (numberOfDreamButton === 1) {
         totalSumOfGotNumbers_1.innerHTML = sum;
 
@@ -165,7 +165,7 @@ function sumOfArray(dieRolls) {
     return sum;
 }
 
-//===== FUNCTION ===== Create ordered list from Array 
+//===== FUNCTION ===== Create ordered list from Array
 
 function createOrderedList(dieRolls, numberOfDreamButton) {
 
@@ -284,16 +284,16 @@ function generateDices_Not_6Sides(dieRolls, numberOfDreamButton) {
 
 }
 
-// some complicated FUNCTION found in depths of the internet - just to help run FUNCTION 'changeColorStyle()' 
+// some complicated FUNCTION found in depths of the internet - just to help run FUNCTION 'changeColorStyle()'
 function cssVar(name, value) {
 
     if (name[0]!='-') name = '--'+name //allow passing with or without --
     if(value) document.documentElement.style.setProperty(name, value)
     return getComputedStyle(document.documentElement).getPropertyValue(name);
-    
+
 }
 
-// FUNCTION that swap the colors: change red to blue and vice versa... 
+// FUNCTION that swap the colors: change red to blue and vice versa...
 function changeColorStyle() {
 
 let currentStyle = cssVar('blue-color');
@@ -313,7 +313,7 @@ if (currentStyle === '#0048BA') {
     cssVar('bright-red-color', '#0063FF');
 
 
-   
+
 }  else {
 
     cssVar('blue-color');
