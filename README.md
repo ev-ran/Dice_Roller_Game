@@ -7,7 +7,7 @@ Let's play a little bit)
 
 ###### Initial data
 * number of rolls
-* number of dice sizes
+* number of dice sides
 
 ###### 1. "ROLL" button:
  * roll dices using Math.random().
