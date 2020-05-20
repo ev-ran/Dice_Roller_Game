@@ -13,7 +13,7 @@ Let's play a little bit)
  * roll dices using Math.random().
  *  calculate and display the total sum of numbers in current roll.
  *  create and display the ordered list with results of current dice roll.
- *  generete and display the graphical form of dices.
+ *  generate and display the graphical form of dices.
  *  change ColorStyle of document with 0.5 sec. delay
 
 ###### 1. "RESET" button:
